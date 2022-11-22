@@ -12,19 +12,17 @@ export const Login = () => {
             <Img />
             <section className='contendor-formulario' id=''>
                 <form className='form-login' id=''>
-                    <Input attribute={{
-                        id: 'usuario',
-                        name: 'usuario',
-                        type: 'text',
-                        placeholder: 'Digite su usuario'
-                    }} />
-                    <Input attribute={
-                        {
-                            id: 'contrasena',
-                            name: 'contrasena',
-                            type: 'password',
-                            placeholder: 'Digite su contraseña'
-                        }}
+                    <Input 
+                        id= 'usuario'
+                        name= 'usuario'
+                        type= 'text'
+                        placeholder= 'Digite su usuario'
+                     />
+                    <Input
+                            id= 'contrasena'
+                            name= 'contrasena'
+                            type= 'password'
+                            placeholder= 'Digite su contraseña'
                     />
                     <Button />
                 </form>

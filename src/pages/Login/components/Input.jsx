@@ -1,13 +1,12 @@
 // import React from 'react'
 
-export const Input = (attribute,handleChange) => {
-console.log(attribute)
+export const Input = ({id,name,type,placeholder,handleChange}) => {
   return (
     <input 
-    id={attribute.id}
-    name={attribute.name} 
-    type={attribute.type} 
-    placeholder={attribute.placeholder} 
+    id={id}
+    name={name} 
+    type={type} 
+    placeholder={placeholder} 
     onChange={(e)=>handleChange(e.target.name, e.currentTarget.value)}
     className='' />
   )
